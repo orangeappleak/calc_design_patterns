@@ -21,3 +21,8 @@
 1.  Make sure you are in the correct VE, if not sure run "deactivate"
 2.  Activate the VE
 3.  Run pip freeze > requirements.txt
+
+
+
+DONE!!!!!!
+
