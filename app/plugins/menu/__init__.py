@@ -6,5 +6,4 @@ class MenuCommand(Command):
 
     def execute(self, *args):
         print("Available Commands:")
-        for command_name in self.command_handler.commands:
-            print(f"- {command_name}")
+        print("\n".join([f"- {command_name}" for command_name in self.command_handler.commands]))
