@@ -22,4 +22,5 @@
 2.  Activate the VE
 3.  Run pip freeze > requirements.txt
 
+DONE AGAIN !!!!
 DONE! !! !!
