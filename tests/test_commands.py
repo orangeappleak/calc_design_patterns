@@ -1,5 +1,3 @@
-import pytest
-
 from app import App
 
 def test_greet_command(capfd):
@@ -126,4 +124,3 @@ def test_subtract_command(capfd):
     subtract_command.execute(["5", "3", "2"])
     out, err = capfd.readouterr()
     assert "Invalid number of arguments for 'subtract' command." in out, "The SubtractCommand should print 'Invalid number of arguments for 'subtract' command.'"
-
