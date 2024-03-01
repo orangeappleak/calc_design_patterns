@@ -1,6 +1,6 @@
 from app.commands import Command
 
-class Division(Command):
+class DivideCommand(Command):
     def execute(self, args):
         if len(args) == 2:
             try:
